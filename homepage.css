@@ -1,0 +1,86 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding:0;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.484);
+}
+.nav img{
+    height: 50px; 
+    width: 50px;
+  
+}
+.navbuttons input[name="signup"]{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 20px;
+    border:none
+
+}
+input[type="text"]{
+    padding: 5px 460px;
+   
+    text-align: left;
+}
+.searchbar button {
+    float:left;
+    padding: 5px 5px;
+    
+}
+.navbuttons input:hover{
+    color: rgba(0, 0, 0, 0.402);
+}
+.navbuttons a{
+    text-decoration: none;
+    color: #fff;
+    padding-right: 5px;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1563991655280-cb95c90ca2fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bm8lMjBjb3B5cmlnaHR8ZW58MHx8MHx8&w=1000&q=80"); background-repeat: no-repeat; background-size: cover;
+}
+
+.bodycontent{
+    
+    height: 450px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+   
+}
+.bodycontent h1{
+    width: 100%;
+    display: block;
+    font-size: 50px;
+}
+.bodycontent h3{
+width: 100%;
+display: block;
+font-size: 25px;
+}
+
+ input[value="Start for free"]{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 18px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-right: 20px;
+    border:none;
+    font-size: 21px;
+
+}
+input[value="Start for free"]:hover{
+    color: rgba(0, 0, 0, 0.377);
+    cursor: pointer;
+}
+
+
